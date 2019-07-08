@@ -1,0 +1,40 @@
+__________DOM__________
+
+Geçerli HTML dökümaný için programlama arayüzüdür. Örneðin bir HTML dosyasýnda olmasý gerekenler;
+
+<html>
+  <head>
+  </head>
+  <body>
+  </body>
+</html>
+
+etiketleridir. Bu etiketler bir document baþlýðý altýnda birleþirler ve birbirlerine node(düðüm) ile baðlýdýrlar. Bu etiketlerin çocuklarý da vardýr. Örneðin;
+
+<body>
+  <title>ÝSÝMSÝZ</title>
+</body>
+
+buradaki "title" etiketi "body" etiketinin çocuðudur. Oluþan bu yapýyý aðaca benzetirsek bu aðaca "DOM" denir. 
+
+JavaScript kullanarak web sayfasý üzerinde yaptýðýmýz deðiþiklikler DOM kullanýlarak gerçekleþir. Örneðin;
+
+<table id='tablo1'>
+  
+    <tr id='tr1'>
+      <td id='td11'>1. Yazý</td>
+    </tr>
+    
+    <tr id='tr2'>
+      <td id='td22'>2.Yazý</td>
+    </tr>
+  
+</table> 
+
+Sayfadaki bu tabloya -   document.getElementById('tablo1');   - þeklinde eriþebiliriz. Bu eriþimi saðlayan ise sayfanýn DOM yapýsýdýr.
+
+JavaScript HTML dosyasýna hükmedebilir. Örneðin biz <body> etiketinin içinde buton eklemek istiyoruz. Bu butona bastýðýmýzda "alert" diye bir mesaj versin.
+Ancak  <script> etiketi altýnda bu butona basýldýðýnda "uyarý" diye bir mesaj verilmesini istersek <script> etiketi daha aðýr basacaðýndan onun  yapmak istediði
+eylem gerçekleþecek.
+ 
+

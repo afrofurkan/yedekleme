@@ -1,0 +1,171 @@
+<html>
+
+<head>
+<title>sayfam</title>
+</head>
+
+<body>
+
+
+
+
+</body>
+
+</html>
+
+
+       ****1.DERS**** 
+
+-font: 
+
+-h1:
+
+-img:   <img>   src="resimler/ananas.png"  ,  width="boyut"   ,   title="açýklama balonu"   ,   alt="arama motorunda bulunma"   
+
+-ol:    <ol></ol>   <li></li>   sýralý listeler  <ol type="A I 1 i"></ol>
+
+-ul:    <ul></ul>   //  //      sýrasýz listeler  
+
+-a:     <a></a>      href="açýlmasýný istedðin link"     target_blank (yeni sekmede açar)         href="#assas"...........name="assas" 
+
+
+
+
+
+
+       ****2:DERS****
+
+-table:  <table      tablo oluþturmakta kullanýlýr.      border="kalýnlýk"         width="tablonun uzunluðu">                        <table  border="1"> <tr> <td></td> </tr> </table>
+
+tr...satýr    alt 
+                                           td... hücre        
+                                         colspan="yan yana olan hücreleri birleþtirir" sadece 1 tdye yazýlýr  ilk tr nin içindeki ilk tdye yazýlýr geriye kalan iki td sillinir.       
+                                          rowspan alt alta olan hücreleri birleþtirir ilk tdye yazýlýr. sonraký ilk tdler kaldýrýlýr
+                                          align= ortalar    tdnin içine yaz
+                                          bgcolor= arkaplan rengi              yazýnýn rengini belirlemek istiyosan tdlerin içine yazman gerek(font kullanarak)
+                                           cellspacing= hücre boþluðu demek. hücrenin kenar boþluðunu belirler 
+                                          background= arka plan görseli
+                                          iframe= çerçeve          frameborder="0"  kalýnlýk    name= isim                 bastýðýn uygulamanýn çerçeve içinde açýlmasýný istiyosan tdnin içindeki target a çerçevenin adýný yazman gerek
+                                          scrolling= kaydýrma çubuklarý olsun mu olmasýn mý onu belirlersin
+
+
+
+
+          ****3.DERS****
+
+
+<p>          paragraf
+<hr>         kapatýlmaz     çizgi çekmek için kullanýlýr. 
+form için     <input name="" type="text">         type="text" metin kutusu için gerekli     button düðme için gerrekli    value= isim deðiþtir   size=boyut deðiþtirir        liste elemaný da gerekli
+
+
+
+                
+
+                          ******CSS*****
+
+<div></div>    kutu etiketi       <div style"width: 100px; height: 100px; background: red; border: 1px solid white"     
+
+solid:  düz çizgi
+
+texe-decoration: none;    dekorasyon yapýlmasýn    linkin altýndaki çizgiyi kaldýrýr
+
+
+
+
+
+          *****4.DERS*****
+
+<script> 
+
+document.write("merhaba dünya")
+
+</scrpit>
+
+var a;
+a= 4;
+document.write("a") 
+
+
+
+
+                ********* 5.DERS ***********
+GIT
+
+pwd: hangi dosya içinde olduðu görülür
+ls: içinde bulunduðun dosyanýn sahip olduðu dosya ve dizinlere eriþilir
+cd: gitmek istediðin yer           cd desktop           cd dizin                 cd .. geri dön
+mkdir: dosya oluþturma            mkdir dizin
+touch: dosya oluþturma             touch resim.png
+vi resim.png: bir þey eklemek istersen
+i: yazý yazmak için kulllanýlýr
+yazý yazdýktan sonra sýrasýyla       :wq           w: write        q: quite
+rm resim.png: dosyayý silersin
+rm -r: klasörü silersin (dizin)  {ama önce desktopa çýkman lazým}
+git init: gizli git dosyasý oluþturma
+git add: staging area ya gönderir.
+git status: staginng area ya gidip gitmediðine bakýlýr
+rn --cached: staging area dan çýkarýlýr.
+git add. : Tüm dosyalarý staging area ya gönderir.
+git commit -m ""             ""
+git log: commit iþlemini ekrana yansýtýr.
+git checkout -b dal-1  : dal-1 diye bir dal oluþturur..
+git brannch -a: dallarý sýralar.
+git checkout master: master branch in üstüne geri gelir.
+git branch -D dal-1 : dal1 brancihini siler.
+git push: göndermek
+git clone: indirmek 
+git diff : deðiþiklikleri gösterir 
+git merge : birleþtirme  [ilk master brancha dön (git checkout master)
+] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+     
